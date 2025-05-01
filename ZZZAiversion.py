@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument(
     "---path",
     type=str,
-    default="C:\\Users\\HP 348 G7\\Documents",
+    default="C:\\Users\\HP 348 G7\\Desktop",
     help="Directory path of the file to be cleaned",
 )
 args = parser.parse_args()
